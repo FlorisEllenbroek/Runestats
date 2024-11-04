@@ -1,0 +1,39 @@
+ .img-navbar{
+    height: 50px;
+    width: 50px;
+ }
+
+ .main-container {
+    height: 100%;
+}
+input.form-control:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+.nav-bg{
+    background: #A11310;
+    color: #A11310;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.7);
+}
+table {
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.7);
+}
+.nav-color{
+    color: #F3E9B3 !important;
+}
+.body-background{
+    background-color: #D9D7F0;
+}
+.text-color{
+    color: #4C2F33;
+}
+
+.noto-serif-oriya-custom {
+    font-family: "Noto Serif Oriya", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+
+

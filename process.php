@@ -30,7 +30,7 @@ if (isset($_POST['username'])) {
 
 function apiToDatabase($apiOutput, $playerId)
 {
-    $pdo = new PDO('mysql:host=localhost;dbname=runestats', 'bit_academy', 'bit_academy');
+    $pdo = new PDO('mysql:host=localhost;dbname=runestats', 'username', 'password');
 
     $skills = [
         'attack',

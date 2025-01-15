@@ -2,7 +2,7 @@
 
 include 'process.php';
 
-$pdo = new PDO('mysql:host=localhost;dbname=runestats', 'bit_academy', 'bit_academy');
+$pdo = new PDO('mysql:host=localhost;dbname=runestats', 'username', 'password');
 
 $skill = $_GET['skill'];
 $playerId = $_SESSION['player_id'];
